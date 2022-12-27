@@ -1,0 +1,528 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    position: absolute;
+width: 5%;
+margin-left: 40px;
+margin-top: -300px;
+}
+header {
+    display: flex;
+    align-items: flex-start;
+}
+#search {
+    margin-left: 40%;
+}
+.navig {
+    margin-top: 40px;
+}
+.navig i {
+    padding-right: 50px;
+}
+.photo {
+    vertical-align: top;
+}
+header img {
+    height: 800px;
+    width: 55%;
+    justify-self: flex-start;
+}
+.up {
+color: #156963;
+border: none;
+background-color: #fff;
+padding: 8px 20px 8px 0px;
+font-size: 16px;
+}
+.in {
+    background: #156963;
+    border: none;
+    color: #fff;
+    padding: 8px 20px 8px 20px;
+    font-size: 16px;
+}
+header h3 {
+    color: #156963;
+    font-size: 68px;
+    margin-left: 120px;
+    margin-top: 120px;
+}
+header span {
+    color: #2C1500;
+    font-size: 18px;
+line-height: 32px;
+}
+.text {
+    width: 500px;
+    margin-left: 130px;
+}
+.previous {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5% 5% 5% 5%;
+}
+.previous button {
+    color: lightgray;
+    border: none;
+    background: #fff;
+    font-size: 24px;
+    margin-left: 91px;
+}
+.previous span {
+    font-size: 32px;
+    color: #156963;
+    margin-top: 10px;
+    margin-left: 91px;
+}
+.previous i {
+    padding-right: 12px;
+}
+.next {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #156963;
+    padding: 5% 5% 5% 5%;
+}
+.next a {
+    color: lightgray;
+    border: none;
+    font-size: 26px;
+    
+
+}
+.next span {
+    font-size: 32px;
+    color: #fff;
+    margin-top: 10px;
+}
+.next i {
+    padding-right: 0px;
+    padding-left: 12px;
+}
+.buttons {
+    margin-top: 200px;
+    display: flex;
+}
+.info {
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-around;
+}
+.info div {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #E0E0E0;
+    width: 20%;
+    text-align: center;
+}
+.info div b {
+    font-size: 22px;
+line-height: 24px;
+color: #156963;
+padding: 10px 20px 10px 0px;
+
+}
+.info div i {
+    padding: 0px 10px 0px 0px;
+}
+.info div span {
+    font-size: 16px;
+line-height: 16px;
+color: gray;
+padding: 0px 30px 20px 30px;
+}
+.photos {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly
+}
+.photos div {
+    display: flex;
+    flex-direction: column;
+    text-align: center ;
+}
+.photos div span {
+    margin-top: 10px;
+}
+.photos div b {
+    margin-top: 10px;
+}
+.head {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+.head h4 {
+    font-size: 22px;
+    margin-left: 30px;
+}
+.head i {
+    padding-left: 10px;
+}
+.head span {
+    border: 1px solid #E0E0E0 ;
+    text-align: center;
+    align-items: flex-end;
+    margin-right: 30px;
+    padding: 3px;
+    margin-bottom: 15px;
+}
+.buy_more {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.onlytext h2 {
+    font-size: 40px;
+line-height: 56px;
+}
+.onlytext {
+    width: 600px;
+
+}
+.thefirst {
+    margin-left: 50px;
+}
+.thefirst span {
+    font-size: 16px;
+    line-height: 28px;
+}
+.thefirst img {
+    margin-top: 70px;
+}
+.onlyphoto {
+margin-right: 50px;
+}
+.shop {
+    margin-top: 50px;
+    display: flex;
+justify-content: space-between;
+    background-color: #F3F4F6;;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.shop button {
+    border: none;
+    padding: 10px 20px 10px 20px;
+    background-color: #156963;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 18px;
+}
+.shop h2 {
+    font-size: 40px;
+}
+.textik {
+    margin-left: 100px;
+    margin-top: 150px;
+}
+footer {
+    margin-top: 100px;
+    display: flex;
+    border-top: 1px solid #E0E0E0;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+}
+footer div h4 {
+    color: #156963;
+    font-size: 24px;
+}
+footer div {
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+footer span {
+    margin-top: 20px;
+}
+footer h5 {
+    font-size: 18px;
+}
+.input {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #E0E0E0;
+}
+.submit {
+    border: none;
+    color: #fff;
+    background-color: #156963;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-self: flex-start;
+    border-radius: 2px;
+    align-self: flex-start;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.email
+ {
+    text-align: center;
+ }
+ footer p {
+    width: 400px;
+    justify-self: flex-start;
+    margin-top: 20px;
+    color: gray;
+ }
+ .plantku {
+    text-align: start;
+ }
+ .plantku h5 {
+    margin-top: 15px;
+ }
+@media screen and (max-width: 1241px) {
+    .onlyphoto img {
+        width: 80%;
+        height: 100%;
+        
+        margin-right: 0;
+    }
+    .onlyphoto {
+        margin-right: 0;
+        align-self: flex-end;
+        justify-self: flex-end;
+        display: block;
+        float: inline-end;
+    }
+  .buy_more {
+   
+  } 
+  #search {
+    margin-left: 20%;
+} 
+.next {
+    
+    padding: 5% 2% 2% 2%;
+}
+.next a {
+    color: lightgray;
+    border: none;
+    font-size: 20px;
+    
+
+}
+.next span {
+    font-size: 26px;
+    color: #fff;
+    margin-top: 10px;
+}
+}
+@media screen and (max-width: 1008px)  {
+    .photos {
+    flex-direction: column;
+    }
+    .logo {
+        margin-top: -170px;
+       width: 8%;
+    }
+    .photos img {
+        width: 40%;
+        align-self: center;
+       
+    }
+    .photos div {
+        text-align: center;
+    }
+    .onlyphoto {
+        display: none;
+    }
+    .text {
+        margin-left: 0px
+    }
+    header h3 {
+        margin-top: 20px;
+        margin-left: 0px;
+        font-size: 30px;
+    }
+    .buttons {
+        margin-top: 100px;
+        margin-left: 0px;
+    }
+    .previous {
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    .previous span {
+        margin-left: 10px;
+    }
+    .previous button {
+        margin-left: 10px;
+    }
+    #search {
+        margin-left:10%;
+    } 
+    header img {
+        height: 500px;
+    }
+}
+@media screen and (max-width: 760px) {
+    header img {
+  display: none;
+    }
+    
+    header i {
+       
+    }
+    .navig {
+        
+    }
+    .menu {
+        display: flex;
+        justify-content: space-around;
+    }
+    .in {
+        align-self: flex-end;
+        margin-bottom: 30px;
+    }
+    
+    .menu i {
+        margin-top: 10px;
+    }
+    .up {
+        margin-bottom: 30px;
+    }
+    header h3 {
+        text-align: center;
+    }
+    header span {
+        text-align: center;
+        
+    }
+    .next {
+        padding: 2% 2% 2% 2%;
+        
+    }
+    .previous {
+        padding: 2% 2% 2% 2%;
+        
+    }
+  .buttons {
+    justify-content: space-between;
+  }
+  .info {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .info div {
+    width: 100%;
+  }
+  .shop img {
+    display: none;
+  }
+  .thefirst img {
+    width: 100%;
+    
+  }
+  .thefirst {
+    margin-right: 20px;
+  }
+  .onlytext {
+    width: 100%;
+  }
+
+  .shop {
+    text-align: center;
+    margin: 0;
+    margin-top: 50px;
+  }
+  .shop h2 {
+    font-size: 28px;
+    margin-right: 80px;
+  }
+  .shop button {
+    text-align: center;
+    margin-right: 80px;
+  }
+  footer {
+    flex-direction: column;
+    
+  }
+  footer div h4 {
+text-align: center;
+ 
+  }
+  footer h5 {
+    text-align: center;
+  }
+  footer p {
+    width: 100%;
+    text-align: center;
+  }
+  .submit {
+   align-self: center;
+  }
+}  
+@media screen and (min-width: 2000px) {
+    #search {
+        margin-left: 60%;
+    }
+    .logo {
+        margin-top: -350px;
+    }
+    header span{
+        font-size: 33px;
+        line-height: 50px;
+    }
+    header img {
+        height: 1000px;
+        width: 55%;
+        
+    }
+    .up{
+        font-size: 30px;
+    }
+    .in {
+        font-size: 30px;
+    }
+    header i {
+        font-size: 30px;
+    }
+    .info div b {
+        font-size: 28px;
+    }
+    .info div span {
+        font-size: 23px;
+        line-height: 50px;
+    }
+    .head h4 {
+        font-size: 33px;
+
+    }
+    .head span {
+        font-size: 23px;
+    }
+    .onlytext span {
+        font-size: larger;
+    }
+    .shop button {
+        font-size: 23px;
+    }
+    footer div h4 {
+        font-size: 33px;
+    }
+    .email h5 {
+        font-size: 33px;
+    }
+    .plantku h5 {
+        font-size: 25px;
+    }
+    footer p {
+        font-size: 23px;
+    }
+    footer h5 {
+        font-size: 28px;
+    }
+    footer span {
+        font-size: 23px;
+    }
+    .submit {
+        font-size: 28px;
+    }
+}                                                            
